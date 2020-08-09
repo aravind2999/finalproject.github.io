@@ -1,0 +1,78 @@
+h1{
+  color:#2A9D8F ;
+  font: italic;
+  font-family: 'Italianno', cursive;
+  font-size: 30px;
+  font-style: bold;
+}
+h3{
+  color:#2A9D8F ;
+  font: italic;
+  font-family: 'Italianno', cursive;
+
+}
+.start{
+  background-size: cover;
+  background-image: url(reactor.jpg);
+  background-attachment: fixed;
+}
+
+
+.intro {
+    height: 80vh;
+    display: grid;
+    width: 100vw;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+.name {
+    grid-column: 1 / 2;
+    grid-row: 1;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(10vw) translateY(-10vh);
+    color: black;
+}
+
+div {
+    display: block;
+}
+
+.objective {
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: black;
+    font-size: 25px;
+    color: #F4A261;
+}
+
+.resume {
+    background-size: cover;
+    background-image: url(image.webp);
+    background-attachment: fixed;
+    height: 100vh;
+    font-size: 30px;
+    align-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+resume {
+    background-size: cover;
+    background-image: url(image.webp);
+    background-attachment: fixed;
+    height: 100vh;
+    align-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
